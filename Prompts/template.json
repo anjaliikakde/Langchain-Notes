@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "stlye_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Please summarize the research paper titled \"{paper_input}\" with the following specifications:\nExplanantion Style: {stlye_input}\nExplanation Length: {length_input}\n1.Mathematical Details:\n   - Include mathematical details if applicable.\n   - Explain complex concepts with easy interpretations where possible.\n2. Analogies:\n    - Use analogies to simplify complex concepts.\nIf Certain information not available in the paper, please mention that with \"N/A\" in the response.\nEnsure the summary is clear, concise, and informative. \n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

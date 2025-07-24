@@ -11,3 +11,4 @@ huggingface-hub
 python-dotenv
 cohere
 sentence-transformers
+streamlit

@@ -13,3 +13,4 @@ cohere
 sentence-transformers
 streamlit
 grandalf  # to visualize chain
+requests 
